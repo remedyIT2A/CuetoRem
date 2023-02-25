@@ -1,0 +1,131 @@
+body {
+    background-color: #FFFFFF;
+  }
+  
+  .wrapper {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    line-height: 24px;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c33b52;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  nav {
+    width: 101%;
+    height: 60px;
+    background-color: #FFC0CB;
+  }
+  
+  nav .wrapper {
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  nav ul li {
+    list-style: none;
+    float: left;
+  }
+  
+  nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFE0;
+    text-decoration: none;
+    padding: 0 16px;
+    text-transform: uppercase;
+  }
+  nav p {
+    color: #752431;
+    font-size: 200%;
+    text-align: left;
+  }
+  
+  nav ul li a:hover {
+    color: #e33a56;
+  }
+  
+  section {
+    background-color: #fff;
+    width: 94%;
+    padding: 20px 3%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 99%;
+    padding: 50px;
+    height: 1500px;
+    border-style: inset;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    text-align: left;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  .unique {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .p1 {
+    text-align: center;
+    font-size: 130%;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 50px;
+  }
+  .p2 {
+    text-align: justify;
+    font-size: 130%;
+  }
